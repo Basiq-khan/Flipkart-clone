@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/db7cc443a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F1F2F4] font-inter">
+    <!-- navbar start -->
+    <nav class="relative">
+      <div
+        id="hide"
+        class="bg-white md:flex justify-between flex h-[78px] items-center"
+      >
+        <!-- div to hide for hamburger menu  -->
+        <div class="flex md:mr-8 md:-ml-3">
+          <!-- <div class="md:hidden pl-10"> -->
+          <button id="btn" class="md:hidden">
+            <i class="fa-solid fa-bars p-4"></i>
+          </button>
+          <!-- </div> -->
+          <img
+            class="md:h-44 md:w-44 h-44 w-44"
+            src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="bg-[#F0F5FF] h-9 w-[500px] items-center px-3 rounded-xl hidden md:flex"
+        >
+          <i class="fa-solid fa-magnifying-glass pr-3 text-gray-500"></i>
+          <input
+            class="bg-transparent outline-none flex-grow text-[18px] placeholder-gray-500"
+            type="text"
+            placeholder="Search for Products, Brands and More"
+          />
+        </div>
+        <div class="flex items-center pr-3">
+          <div>
+            <button
+              class="flex text-[17px] md:hover:bg-[#2A55E5] md:hover:text-white items-center md:px-5 py-1 mx-2 rounded-xl"
+            >
+              <i class="fa-regular fa-user pr-2"></i>
+              Login
+            </button>
+          </div>
+          <div class="md:mx-4">
+            <img
+              class="md:h-8 md:w-8"
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"
+              alt=""
+            />
+          </div>
+          <div class="md:mx-4 hidden md:block">
+            <img
+              class="h-8 w-8"
+              src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg"
+              alt=""
+            />
+          </div>
+          <div>
+            <button
+              class="hover:bg-[#FAFAFA] px-2 py-2 hover:border-[#E0E0E0] hover:border-2 rounded-xl hidden md:block"
+            >
+              <img
+                class="h-8 w-8"
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- div to hide for hamburger menu  -->
+      <div id="navbar" class="hidden">
+        <div
+          class="md:hidden flex flex-row justify-between bg-black  text-white h-[900px] w-56 p-4 absolute top-0  opacity-90"
+        >
+          <div class="flex flex-col">
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+          </div>
+          <i id="close" class="fa-solid fa-x"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- header -->
+    <header
+      class="bg-white flex justify-evenly mt-[38px] md:mt-[40px] md:mx-4 pt-4"
+    >
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100"
+          alt=""
+        />
+        <h1>Gocery</h1>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100"
+          alt=""
+        />
+        <h1>Mobiles</h1>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100"
+          alt=""
+        />
+        <h1>Electronics</h1>
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100"
+          alt=""
+        />
+        <h1 class="w-20 text-center">Home & Furniture</h1>
+      </div>
+      <div class="hidden md:block">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100"
+          alt=""
+        />
+        <h1>Appliances</h1>
+      </div>
+      <div class="hidden md:block">
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100"
+          alt=""
+        />
+        <h1>Flights</h1>
+        <h1>Bookings</h1>
+      </div>
+      <div class="hidden md:block">
+        <img
+          src="https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100"
+          alt=""
+        />
+        <h1 class="w-20 text-center">Beauty, Toys & More</h1>
+      </div>
+      <div class="hidden md:block">
+        <img
+          src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/05d708653beff580.png?q=100"
+          alt=""
+        />
+        <h1 class="w-11 text-center">Two Wheelers</h1>
+      </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main starts -->
+    <main class="md:mx-4 my-5">
+      <img
+        class="h-24 md:h-auto w-full"
+        src="https://rukminim2.flixcart.com/fk-p-flap/1010/170/image/d8d7ce5a1f3ad37f.jpeg?q=80"
+        alt=""
+      />
+    </main>
+    <!-- Main Ends -->
+
+    <!-- another main -->
+    <div class="bg-white flex flex-col mt-2 md:mx-4 pt-4">
+      <div>
+        <h1 class="text-1xl md:text-2xl text-[#1f1f1f] font-semibold pl-4">
+          Beauty Auto & more
+        </h1>
+      </div>
+      <div
+        class="h-full w-full flex flex-col md:flex-row md:justify-evenly py-9"
+      >
+        <div class="text-left flex md:block mx-5 md:text-center mt-6 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/image/110/110/xif0q/moisturizer-cream/o/m/h/-original-imagzzm598qvyybx.jpeg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-28 md:w-28 h-20 w-20"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">Skin Care</p>
+            <p class="md:text-black text-[#919191]">Under ₹499</p>
+          </div>
+        </div>
+        <div class="md:hidden w-full ml-2 h-[2px] bg-[#e0e0e0]"></div>
+        <div class="text-left flex md:block mx-5 md:text-center mt-4 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/image/110/110/kmxsakw0/milk-drink-mix/8/l/k/inner-strength-formula-carton-cadbury-bournvita-original-imagfq3fywyzhfew.jpeg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-auto md:w-auto h-16 w-20"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">Health essentials</p>
+            <p class="md:text-black text-[#919191]">Up to 70% off</p>
+          </div>
+        </div>
+        <div class="md:hidden w-full ml-2 h-[2px] bg-[#e0e0e0]"></div>
+        <div class="text-left flex md:block mx-5 md:text-center mt-4 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/image/110/110/kazor680/cycle/4/f/d/scout-26t-sea-blue-black-for-ride-18-leader-single-speed-original-imafsf6wwfsumagx.jpeg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-auto md:w-full h-16 w-24"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">City & MTB Cycles</p>
+            <p class="md:text-black text-[#919191]">Min 40% Off</p>
+          </div>
+        </div>
+        <div class="md:hidden w-full ml-2 h-[2px] bg-[#e0e0e0]"></div>
+        <div class="text-left flex md:block mx-5 md:text-center mt-4 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/110/110/image/1ec374b0a93bbe3a.jpg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-28 md:w-28 h-16 w-20"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">Car & Bike Accessories</p>
+            <p class="md:text-black text-[#919191]">Min 40% Off</p>
+          </div>
+        </div>
+        <div class="md:hidden w-full ml-2 h-[2px] bg-[#e0e0e0]"></div>
+        <div class="text-left flex md:block mx-5 md:text-center mt-4 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/image/110/110/xif0q/outdoor-toy/w/d/w/-original-imah44c7dzgzndhu.jpeg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-28 md:w-28 h-16 w-20"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">Toys and Games!</p>
+            <p class="md:text-black text-[#919191]">Upto 80% Off</p>
+          </div>
+        </div>
+        <div class="md:hidden w-full ml-2 h-[2px] bg-[#e0e0e0]"></div>
+        <div class="text-left flex md:block mx-5 md:text-center mt-4 mb-6">
+          <img
+            src="https://rukminim2.flixcart.com/image/110/110/xif0q/cereal-flake/k/s/r/-original-imah5mpsnnpu7duv.jpeg?q=80"
+            alt=""
+            class="px-6 md:block md:mx-auto md:h-28 md:w-28 h-16 w-20"
+          />
+          <div class="flex flex-col text-center items-center mt-4">
+            <p class="md:text-[#919191]">Breakfast Essentials</p>
+            <p class="md:text-black text-[#919191]">Up to 65% Off</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- another main ends -->
+
+    <div class="md:mx-4 my-5">
+      <img
+        src="https://rukminim2.flixcart.com/fk-p-flap/1000/220/image/1d758e09bbb35fa5.jpg?q=80"
+        alt=""
+      />
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-[#212121] flex justify-between">
+      <div class="flex flex-col py-5">
+        <div class="ml-5 mt-7">
+          <p class="text-[#878787] text-[13px] mb-3">ABOUT</p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">Contact Us</p>
+            <p class="font-semibold text-[12px]">About Us</p>
+            <p class="font-semibold text-[12px]">Careers</p>
+            <p class="font-semibold text-[12px]">Flipcart Stories</p>
+            <p class="font-semibold text-[12px]">Press</p>
+            <p class="font-semibold text-[12px]">Corporate Information</p>
+          </div>
+        </div>
+        <div class="ml-5 mt-7">
+          <p class="text-[#878787] text-[13px] mb-3">CONSUMER POLICY</p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">Cancellation and returns</p>
+            <p class="font-semibold text-[12px]">Terms Of Use</p>
+            <p class="font-semibold text-[12px]">Security</p>
+            <p class="font-semibold text-[12px]">Privacy</p>
+            <p class="font-semibold text-[12px]">Sitemap</p>
+            <p class="font-semibold text-[12px]">Grievance Redressal</p>
+            <p class="font-semibold text-[12px]">EPR Compliance</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col py-5">
+        <div class="ml-5 mt-7 mb-12">
+          <p class="text-[#878787] text-[13px] mb-3">GROUP OF COMPANIES</p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">Myntra</p>
+            <p class="font-semibold text-[12px]">Cleartrip</p>
+            <p class="font-semibold text-[12px]">Shopsy</p>
+          </div>
+        </div>
+        <div class="ml-5 mt-7">
+          <p class="text-[#878787] text-[13px] mb-3">Mail Us</p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">
+              Flipcart Internet Private Limited
+            </p>
+            <p class="font-semibold text-[12px]">Buildings Alyssa, Begonia &</p>
+            <p class="font-semibold text-[12px]">Clove Embassy Tech Village,</p>
+            <p class="font-semibold text-[12px]">
+              Outer Ring Road, Devarabeesanahalli Village,
+            </p>
+            <p class="font-semibold text-[12px]">Bengaluru, 560103,</p>
+            <p class="font-semibold text-[12px]">Karnataka, India</p>
+            <p class="font-semibold text-[12px]">EPR Compliance</p>
+          </div>
+        </div>
+        <div class="ml-5 mt-7">
+          <p class="text-[#878787] text-[13px] mb-3">Social</p>
+          <div class="text-white flex flex-row">
+            <a class="mr-3" href="#"
+              ><img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+                alt=""
+            /></a>
+            <a class="mr-3" href="#"
+              ><img
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+                alt=""
+            /></a>
+            <a class="mr-3" href="#"
+              ><img
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg"
+                alt=""
+            /></a>
+            <a class="mr-3" href="#"
+              ><img
+                class="h-5 w-5"
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col py-5">
+        <div class="ml-5 mt-7 mb-8">
+          <p class="text-[#878787] text-[13px] mb-3">HELP</p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">Payments</p>
+            <p class="font-semibold text-[12px]">Shipments</p>
+            <p class="font-semibold text-[12px]">
+              Cancellation <br />
+              & Returns
+            </p>
+            <p class="font-semibold text-[12px]">FAQ</p>
+          </div>
+        </div>
+        <div class="ml-5 mt-7">
+          <p class="text-[#878787] text-[13px] mb-3">
+            Registered Office Address
+          </p>
+          <div class="text-white">
+            <p class="font-semibold text-[12px]">
+              Flipkart Internet<br />Private Limited,
+            </p>
+            <p class="font-semibold text-[12px]">
+              Buildings Alyssa,<br />Begonia &
+            </p>
+            <p class="font-semibold text-[12px]">
+              Clove Embassy<br />Tech Village,
+            </p>
+            <p class="font-semibold text-[12px]">
+              Outer Ring Road, Devarabeesanahalli Village,
+            </p>
+            <p class="font-semibold text-[12px]">Bengaluru, 560103,</p>
+            <p class="font-semibold text-[12px]">Karnataka, India</p>
+            <p class="font-semibold text-[12px]">
+              CIN : U51109KA201<br />2PTC066107
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script>
+      let btn = document.querySelector("#btn");
+      let hide = document.querySelector("#hide");
+      let navbar = document.querySelector("#navbar");
+      let close = document.querySelector("#close");
+
+      btn.addEventListener("click", () => {
+        // hide.classList="hidden"
+        navbar.classList = "block";
+      });
+
+      close.addEventListener("click", () => {
+        navbar.classList = "hidden";
+      });
+    </script>
+  </body>
+</html>
